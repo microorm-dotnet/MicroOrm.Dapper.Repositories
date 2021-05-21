@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Description>MicroOrm.Dapper.Repositories.Tests</Description>
     <Authors>Sergey Kuznetsov</Authors>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugType>Full</DebugType>
