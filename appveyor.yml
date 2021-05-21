@@ -1,12 +1,8 @@
 version: '{build}-{branch}'
-image: 
-- Visual Studio 2019
-- Visual Studio 2015
+image: Visual Studio 2019
 
 services:
-- mssql2008r2sp2  
-- mssql2017
-- mysql
+- mssql2008r2sp2
 
 build_script:
 - pwsh: dotnet build -c Release

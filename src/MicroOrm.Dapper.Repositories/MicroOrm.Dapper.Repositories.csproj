@@ -5,8 +5,8 @@
     <AssemblyTitle>MicroOrm.Dapper.Repositories</AssemblyTitle>
     <VersionPrefix>1.17.0</VersionPrefix>
     <Authors>Serge K, Paulo Victor Lund</Authors>
-    <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">net461;netstandard2.0;net5.0</TargetFrameworks>
-    <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' ">netstandard2.0;net5.0</TargetFrameworks>
+    <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">net461;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' ">netstandard2.0</TargetFrameworks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageId>MicroOrm.Dapper.Repositories</PackageId>
